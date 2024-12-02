@@ -1,0 +1,81 @@
+<schedule>
+  <day name="Вторник">
+    <classes>
+      <class>
+        <title>Линейная алгебра</title>
+        <type>Лекция</type>
+        <week>Четная</week>
+        <time>11:40-13:30</time>
+        <teacher>Тушавин Глеб Владимирович</teacher>
+        <building>ул. Ломоносова, д. 9, лит. А</building>
+        <classroom>2202</classroom>
+      </class>
+      <class>
+        <title>Линейная алгебра</title>
+        <type>Практика</type>
+        <week>Четная</week>
+        <time>13:30-15:00</time>
+        <teacher>Тушавин Глеб Владимирович</teacher>
+        <building>ул. Ломоносова, д. 9, лит. Б</building>
+        <classroom>4210</classroom>
+      </class>
+      <class>
+        <title>Основы дискретной математики (базовый уровень)</title>
+        <type>Лекция</type>
+        <week>Четная</week>
+        <time>17:00-18:30</time>
+        <teacher>Поляков Владимир Иванович</teacher>
+        <building>Кронверкский пр., д. 49, лит. А</building>
+        <classroom>2403</classroom>
+      </class>
+      <class>
+        <title>Основы дискретной математики (базовый уровень)</title>
+        <type>Практика</type>
+        <week>Четная</week>
+        <time>18:50-20:10</time>
+        <teacher>Поляков Владимир Иванович</teacher>
+        <building>Кронверкский пр., д. 49, лит. А</building>
+        <classroom>2403</classroom>
+    </classes>
+  </day>
+  <day name="Пятница">
+    <classes>
+      <class>
+        <title>Математический анализ</title>
+        <type>Лекция</type>
+        <week>Нечетная</week>
+        <time>11:40-13:10</time>
+        <teacher>Попов Игорь Юрьевич</teacher>
+        <building>ул. Ломоносова, д. 9, лит. А</building>
+        <classroom>2202</classroom>
+      </class>
+      <class>
+        <title>Математический анализ</title>
+        <type>Практика</type>
+        <week>Нечетная</week>
+        <time>13:30-15:00</time>
+        <teacher>Попов Игорь Юрьевич</teacher>
+        <building>ул. Ломоносова, д. 9, лит. Б</building>
+        <classroom>4306</classroom>
+      </class>
+      <class>
+        <title>Английский язык</title>
+        <type>Практика</type>
+        <week>Нечетная</week>
+        <time>15:20-16:50</time>
+        <teacher>Власова Ассоль Александровна</teacher>
+        <building>ул. Ломоносова, д. 9, лит. А</building>
+        <classroom>3229</classroom>
+      </class>
+      <class>
+        <title>Английский язык</title>
+        <type>Практика</type>
+        <week>Нечетная</week>
+        <time>17:00-18:30</time>
+        <teacher>Власова Ассоль Александровна</teacher>
+        <building>ул. Ломоносова, д. 9, лит. А</building>
+        <classroom>3229</classroom>
+      </class>
+    </classes>
+  </day>
+</schedule>
