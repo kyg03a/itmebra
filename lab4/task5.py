@@ -15,7 +15,7 @@ def yaml_to_csv(yaml_file, csv_file):
         if line.startswith('- day:'):
             if current_day:
                 if current_class:
-                    csv_content.append(current_class)  # Save the current class
+                    csv_content.append(current_class)  
                     current_class = None
             current_day = None
 
@@ -25,7 +25,7 @@ def yaml_to_csv(yaml_file, csv_file):
 
         elif line.startswith('- class:'):
             if current_class:
-                csv_content.append(current_class)  # Save the current class
+                csv_content.append(current_class)  
             current_class = {'day': current_day}
 
         elif ':' in line and not line.startswith('classes:'):
@@ -37,9 +37,9 @@ def yaml_to_csv(yaml_file, csv_file):
                 all_keys.add(key)
 
     if current_class:
-        csv_content.append(current_class)  # Save the last class
+        csv_content.append(current_class)  
 
-    # Determine the fieldnames from all possible keys, excluding 'classes'
+    
     fieldnames = ['day'] + list(all_keys - {'classes'})
 
     with open(csv_file, 'w', newline='', encoding='utf-8-sig') as f:
@@ -47,5 +47,5 @@ def yaml_to_csv(yaml_file, csv_file):
         writer.writeheader()
         writer.writerows(csv_content)
 
-# Example usage
+
 yaml_to_csv('schedule.yaml', 'task51_rez.csv')
