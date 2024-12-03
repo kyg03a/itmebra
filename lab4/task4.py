@@ -1,55 +1,63 @@
-import re
+
+
+def open_new_day(xml_content, day_name):
+    xml_content.append(f'  <day name="{day_name}">\n')
+    xml_content.append('    <classes>\n')
+
+def close_current_day(xml_content):
+    xml_content.append('    </classes>\n')
+    xml_content.append('  </day>\n')
+
+def extract_value(line):
+    return line.split(':', 1)[1].strip()
+
 
 def yaml_to_xml(yaml_file, xml_file):
     with open(yaml_file, 'r', encoding='utf-8') as f:
         lines = f.readlines()
-
-    grammar = {
-        'day': re.compile(r'- day:'),
-        'name': re.compile(r'name: (.+)'),
-        'class': re.compile(r'- class:'),
-        'key_value': re.compile(r'(\w+): (.+)')
-    }
+        lines = [line for line in lines if not line.strip().startswith('classes:')]
 
     xml_content = ['<schedule>\n']
     current_day = False
-    in_class = False
+    inside_class = False
 
-    for line in lines:
+    for line in lines[1:]:
         line = line.strip()
 
-        if grammar['day'].match(line):
+        if line.startswith('- day:'):
             if current_day:
-                xml_content.append('    </classes>\n')
-                xml_content.append('  </day>\n')
+                close_current_day(xml_content)
             current_day = True
-            in_class = False
+            inside_class = False
 
-        elif grammar['name'].match(line):
-            day_name = grammar['name'].match(line).group(1)
-            xml_content.append(f'  <day name="{day_name}">\n')
-            xml_content.append('    <classes>\n')
+        elif line.startswith('name:'):
+            day_name = extract_value(line)
+            open_new_day(xml_content, day_name)
 
-        elif grammar['class'].match(line):
-            if in_class:
+        elif line.startswith('- class:'):
+            if inside_class:
                 xml_content.append('      </class>\n')
             xml_content.append('      <class>\n')
-            in_class = True
+            inside_class = True
 
-        elif grammar['key_value'].match(line):
-            key, value = grammar['key_value'].match(line).groups()
+        elif ':' in line:
+            key, value = line.split(':', 1)
+            key = key.strip()
+            value = value.strip()
             xml_content.append(f'        <{key}>{value}</{key}>\n')
 
     if current_day:
-        if in_class:
+        if inside_class:
             xml_content.append('      </class>\n')
-        xml_content.append('    </classes>\n')
-        xml_content.append('  </day>\n')
+        close_current_day(xml_content)
 
     xml_content.append('</schedule>')
 
     with open(xml_file, 'w', encoding='utf-8') as f:
         f.writelines(xml_content)
 
+
+
 yaml_to_xml('schedule.yaml', 'task4_rez.xml')
+
 
