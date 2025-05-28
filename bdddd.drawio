@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="26.1.0">
   <diagram name="Page-1" id="MmuCcIHy7N6taDSLBzUn">
-    <mxGraphModel>
+    <mxGraphModel dx="2907" dy="942" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="PJhNAipIhyJAXaV5ZJjX-1" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot; lang=&quot;RU&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Н_СЕССИЯ.&lt;span style=&quot;line-height: 107%;&quot; lang=&quot;RU&quot;&gt;ЧЛВК_ИД&amp;gt; 126631&lt;/span&gt;&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="310" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PJhNAipIhyJAXaV5ZJjX-2" value="&lt;span style=&quot;font-size:14.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Aptos;&lt;br/&gt;mso-fareast-theme-font:minor-latin;mso-font-kerning:0pt;mso-ligatures:none;&lt;br/&gt;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;RU&quot;&gt;Н_ЛЮДИ.&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size:14.0pt;line-height:&lt;br/&gt;107%;font-family:&amp;quot;Times New Roman&amp;quot;,serif;mso-fareast-font-family:Aptos;&lt;br/&gt;mso-fareast-theme-font:minor-latin;mso-font-kerning:0pt;mso-ligatures:none;&lt;br/&gt;mso-ansi-language:RU;mso-fareast-language:EN-US;mso-bidi-language:AR-SA&quot; lang=&quot;RU&quot;&gt;ИД&amp;lt; 152862&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="310" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PJhNAipIhyJAXaV5ZJjX-3" value="&lt;p style=&quot;text-align:justify;text-indent:-18.0pt;&lt;br/&gt;mso-list:l0 level1 lfo1&quot; class=&quot;MsoListParagraph&quot;&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;line-height: 107%; font-family: &amp;quot;Corbel Light&amp;quot;, sans-serif;&quot; lang=&quot;RU&quot;&gt;­&lt;span style=&quot;font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-variant-emoji: normal; font-stretch: normal; line-height: normal; font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif;&quot; lang=&quot;RU&quot;&gt;Н_ЛЮДИ.ИД=Н_СЕССИЯ.ЧЛВК_ИД&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="170" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PJhNAipIhyJAXaV5ZJjX-4" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;result&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PJhNAipIhyJAXaV5ZJjX-5" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PJhNAipIhyJAXaV5ZJjX-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PJhNAipIhyJAXaV5ZJjX-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
