@@ -197,6 +197,67 @@
         <mxCell id="sceWcwLllYWsd-2YkSTM-76" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Пользователь: yoyo&lt;/font&gt;&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=5;strokeColor=light-dark(#001DBC,#1A1A1A);fontColor=light-dark(#FFFFFF,#CCCCCC);fillColor=light-dark(#0050EF,#1A1A1A);fontSize=16;fontStyle=1;labelBorderColor=light-dark(#000000,#1A1A1A);" vertex="1" parent="1">
           <mxGeometry x="360" y="870" width="200" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-94" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#FFFFFF,#111111);strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="1640" width="1080" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-95" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.marginRect2;rectMarginTop=32;strokeColor=#666666;gradientColor=none;whiteSpace=wrap;fillColor=light-dark(#FFFFFF,#666666);" vertex="1" parent="1">
+          <mxGeometry x="340" y="1800" width="870" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-96" value="MusicBands" style="strokeColor=inherit;fillColor=inherit;gradientColor=inherit;strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;fontSize=17;fontColor=#666666;gradientColor=none;" vertex="1" parent="sceWcwLllYWsd-2YkSTM-95">
+          <mxGeometry width="100" height="25" relative="1" as="geometry">
+            <mxPoint x="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-97" value="" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.topButton;rSize=5;strokeColor=light-dark(#008CFF,#CCCCCC);fillColor=light-dark(#008CFF,#CCCCCC);gradientColor=none;resizeWidth=1;movable=0;deletable=1;" vertex="1" parent="sceWcwLllYWsd-2YkSTM-95">
+          <mxGeometry width="870.0000000000001" height="7" relative="1" as="geometry">
+            <mxPoint y="25" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-98" value="История" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.containers.rrect;rSize=0;fontSize=17;fontColor=#ffffff;strokeColor=light-dark(#008CFF,#E6E6E6);fillColor=light-dark(#008CFF,#CCCCCC);" vertex="1" parent="sceWcwLllYWsd-2YkSTM-95">
+          <mxGeometry x="140" width="110" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-111" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Русский&lt;/font&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.comboBox;strokeColor=#999999;fillColor=none;align=left;fillColor2=#aaddff;mainText=;fontColor=#666666;fontSize=17;spacingLeft=3;" vertex="1" parent="1">
+          <mxGeometry x="1210" y="1670" width="145.71" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-112" value="" style="swimlane;shape=mxgraph.bootstrap.anchor;strokeColor=none;fillColor=#ffffff;fontColor=#666666;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1830" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-113" value="Команды" style="text;strokeColor=#008CFF;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;shape=mxgraph.mockup.topButton;rSize=10;fillColor=light-dark(#008CFF,#CCCCCC);fontColor=#ffffff;fontSize=17;fontStyle=1;" vertex="1" parent="sceWcwLllYWsd-2YkSTM-112">
+          <mxGeometry width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-114" value="Добавить" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fillColor=inherit;fontColor=inherit;fontSize=17;fontStyle=0;" vertex="1" parent="sceWcwLllYWsd-2YkSTM-112">
+          <mxGeometry y="50" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-115" value="Удалить по id" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fillColor=inherit;fontColor=inherit;fontSize=17;fontStyle=0;" vertex="1" parent="sceWcwLllYWsd-2YkSTM-112">
+          <mxGeometry y="100" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-116" value="" style="swimlane;shape=mxgraph.bootstrap.anchor;strokeColor=none;fillColor=#ffffff;fontColor=#666666;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="1980" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-117" value="Очистить" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fillColor=inherit;fontColor=inherit;fontSize=17;fontStyle=0;" vertex="1" parent="sceWcwLllYWsd-2YkSTM-116">
+          <mxGeometry width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-118" value="Выполнить скрипт" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fillColor=inherit;fontColor=inherit;fontSize=17;fontStyle=0;" vertex="1" parent="sceWcwLllYWsd-2YkSTM-116">
+          <mxGeometry y="50" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-119" value="" style="swimlane;shape=mxgraph.bootstrap.anchor;strokeColor=none;fillColor=#ffffff;fontColor=#666666;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=0;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1230" y="2080" width="140" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-120" value="Фильтрация по описанию" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fillColor=inherit;fontColor=inherit;fontSize=17;fontStyle=0;" vertex="1" parent="sceWcwLllYWsd-2YkSTM-119">
+          <mxGeometry width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-121" value="Фильтрация по альбомам" style="text;strokeColor=inherit;align=center;verticalAlign=middle;spacingLeft=10;spacingRight=10;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;rSize=5;fillColor=inherit;fontColor=inherit;fontSize=17;fontStyle=0;" vertex="1" parent="sceWcwLllYWsd-2YkSTM-119">
+          <mxGeometry y="50" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-122" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Информация&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=5;strokeColor=light-dark(#001DBC,#1A1A1A);fontColor=light-dark(#FFFFFF,#CCCCCC);fillColor=light-dark(#0050EF,#1A1A1A);fontSize=16;fontStyle=1;labelBorderColor=light-dark(#000000,#1A1A1A);" vertex="1" parent="1">
+          <mxGeometry x="1230" y="2270" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-123" value="&lt;span style=&quot;font-size: 15px;&quot;&gt;Помощь&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=5;strokeColor=light-dark(#001DBC,#1A1A1A);fontColor=light-dark(#FFFFFF,#CCCCCC);fillColor=light-dark(#0050EF,#1A1A1A);fontSize=16;fontStyle=1;labelBorderColor=light-dark(#000000,#1A1A1A);" vertex="1" parent="1">
+          <mxGeometry x="1230" y="2310" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sceWcwLllYWsd-2YkSTM-124" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Пользователь: yoyo&lt;/font&gt;&lt;/span&gt;" style="strokeWidth=1;shadow=0;dashed=0;align=center;html=1;shape=mxgraph.mockup.forms.rrect;rSize=5;strokeColor=light-dark(#001DBC,#1A1A1A);fontColor=light-dark(#FFFFFF,#CCCCCC);fillColor=light-dark(#0050EF,#1A1A1A);fontSize=16;fontStyle=1;labelBorderColor=light-dark(#000000,#1A1A1A);" vertex="1" parent="1">
+          <mxGeometry x="350" y="1680" width="200" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
